@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Static Code Analysis') {
       environment {
-        SONAR_URL = " https://ff87-103-214-63-233.ngrok-free.app"
+        SONAR_URL = "https://673d-103-214-63-233.ngrok-free.app/"
         
       }
       steps {
